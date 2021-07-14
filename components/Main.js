@@ -17,7 +17,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpeg" alt="" /></span>
-          <p>Hi, my name is Achmad Dhikrillah. I hold Bachelor's Degree from Airlangga University majoring in Information Systems. I am interested in technology. Currently, I like to exploring Testing Automation, data analytics and web development as UI / UX. I love to learn something new about technology and keep improving my skills. I can work in a team and like to meet new people. In my daily time I like to write and edit some videos. <a href="#work">awesome work</a>.</p>
+          <p>Hi, my name is Achmad Dhikrillah. I hold Bachelor's Degree from Airlangga University majoring in Information Systems. i'm a Software Engineering in Test currently working as Software Quality Assurance at Majoo. i mostly do write Automated Test with cypress. <a href="#work">awesome work</a>.</p>
           {close}
         </article>
 
@@ -39,24 +39,6 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/achmad-dhikrillah-1a577a1b1/">
               <FontAwesomeIcon icon={faLinkedin} />
