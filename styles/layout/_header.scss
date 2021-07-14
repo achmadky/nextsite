@@ -28,7 +28,7 @@
 			margin-top: 3.5rem;
 
 			&:before {
-				content: '';
+				// content: ''; ini hanya penambahan garis
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
