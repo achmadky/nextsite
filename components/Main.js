@@ -4,6 +4,7 @@ import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
+import { faLinkedin } from '@fortawesome/fontawesome-free-brands';
 
 class Main extends React.Component {
   render() {
@@ -23,8 +24,9 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>Currently, I work as Software Quality Assurance at Majoo.</p>
+          <p>MPM Distributor, in this company i work as Technical Writer, usually i create a document such as blueprint, technical implementation, user manual, scenario testing, user acceptance test and create UI with Figma.</p>
+          <p>GoStartups, in this company i work as an intern Analytics, create spreadsheet User Assesment Test, Scenario Test, Script Automation with Playwright and Data Analyst with Metabase</p>
           {close}
         </article>
 
@@ -56,16 +58,13 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#">
-              <FontAwesomeIcon icon={faTwitter} />
+            <li><a href="https://www.linkedin.com/in/achmad-dhikrillah-1a577a1b1/">
+              <FontAwesomeIcon icon={faLinkedin} />
             </a></li>
-            <li><a href="#">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a></li>
-            <li><a href="#">
+            <li><a href="https://www.instagram.com/d.akyy/">
               <FontAwesomeIcon icon={faInstagram} />
             </a></li>
-            <li><a href="#">
+            <li><a href="https://github.com/achmadky">
               <FontAwesomeIcon icon={faGithub} />
             </a></li>
           </ul>
