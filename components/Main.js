@@ -26,7 +26,7 @@ class Main extends React.Component {
           <span className="image main"><img src="/static/images/pic2.jpg" alt="" /></span>
           <p>Currently, I work as Software Quality Assurance at Majoo. in this company, mostly i do create automate test with flutter gherkin, so i need to learn a bit about flutter.</p>
           <p>before i worked at Majoo. i work as technical writer in MPM Distributor, in this company i usually create a document such as blueprint, technical implementation, user manual, scenario testing, user acceptance test and create UI with Figma.</p>
-          <p>i've also done an internship in GoStartups, in this company i work as an intern Analytics and Software Quality Assurance, i usually create spreadsheet User Assesment Test, Scenario Test, Script Automation with Playwright and Data Analyst with Metabase. and now sometimes i do freelance job in this company as a Software Quality Assurance.</p>
+          <p>i've also done an internship in GoStartups, in this company i work as an intern Analytics and Software Quality Assurance, i usually create spreadsheet User Assesment Test, Scenario Test, Script Automation with Playwright and Data Analyst with Metabase.</p>
           {close}
         </article>
 
