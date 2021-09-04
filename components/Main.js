@@ -17,16 +17,18 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpeg" alt="" /></span>
-          <p>Hi, my name is Achmad Dhikrillah. I hold Bachelor's Degree from Airlangga University majoring in Information Systems. i'm a Software Engineering in Test currently working as Software Quality Assurance at Majoo. i mostly do write Automated Test with cypress for web app and flutter gherkin for mobile apps. <a href="#work">awesome work</a>.</p>
+          <p>My name is Achmad Dhikrillah, and I am a Quality Assurance Engineer from Indonesia living in Surabaya. I do create Script for automate test with flutter gherkin for mobile app and cypress for web app, and UI/UX development. 
+            I have good experience, especially in the startup. Most of my projects are from SaaS Aplication, such as <a href="https://majoo.id/">Majoo</a> and <a href="https://www.gostartupco.com/">GoStartup</a>. Please Check them, you will regret if you don’t!.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src="/static/images/pic2.jpg" alt="" /></span>
-          <p>Currently, I work as Software Quality Assurance at Majoo. in this company, mostly i do create automate test with flutter gherkin, so i need to learn a bit about flutter.</p>
-          <p>before i worked at Majoo. i work as technical writer in MPM Distributor, in this company i usually create a document such as blueprint, technical implementation, user manual, scenario testing, user acceptance test and create UI with Figma.</p>
-          <p>i've also done an internship in GoStartups, in this company i work as an intern Analytics and Software Quality Assurance, i usually create spreadsheet User Assesment Test, Scenario Test, Script Automation with Playwright and Data Analyst with Metabase.</p>
+          <p>Currently, I work as Quality Assurance Engineer at Majoo. in this company, mostly i do create automate test with flutter gherkin, so i need to learn a bit about flutter.</p>
+          <p>Software Quality Assurance</p>
+          <p>Starting with basic websites several years ago I found myself working as a Quality Assurance Engineer Intern for complex project. 
+            With so many features of the app, so much detail and combined into an innovative interfaces across multiple touch points became my daily companion. To ensure that the application has reached the best quality.</p>
           {close}
         </article>
 
