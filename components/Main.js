@@ -17,8 +17,8 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpeg" alt="" /></span>
-          <p>My name is Achmad Dhikrillah, and I am a Quality Assurance Engineer from Indonesia living in Surabaya. I do create Script for automate test with flutter gherkin for mobile app and cypress for web app, and UI/UX development. 
-            I have good experience, especially in the startup. Most of my projects are from SaaS Aplication, such as <a href="https://majoo.id/">Majoo</a> and <a href="https://www.gostartupco.com/">GoStartup</a>. Please Check them, you will regret if you don’t!.</p>
+          <p>My name is Achmad Dhikrillah, and I am a Quality Assurance Engineer from Indonesia living in Surabaya. I do create Script Automate test with flutter gherkin for mobile app and cypress for web app, and UI/UX development. 
+            I have good experience especially in the startup. Most of my projects are from SaaS Aplication, such as <a href="https://majoo.id/">Majoo</a> and <a href="https://www.gostartupco.com/">GoStartup</a>. Please check them!</p>
           {close}
         </article>
 
@@ -28,16 +28,10 @@ class Main extends React.Component {
           <p>Currently, I work as Quality Assurance Engineer at Majoo. in this company, mostly i do create automate test with flutter gherkin, so i need to learn a bit about flutter.</p>
           <p>Software Quality Assurance</p>
           <p>Starting with basic websites several years ago I found myself working as a Quality Assurance Engineer Intern for complex project. 
-            With so many features of the app, so much detail and combined into an innovative interfaces across multiple touch points became my daily companion. To ensure that the application has reached the best quality.</p>
+            With so many features of the app, so much detail and combined into an innovative interfaces across multiple touch points became my daily companion. and i realized, i like to ensure that the application has reached the best quality and feel comfortable with it.</p>
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-          {close}
-        </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
